@@ -1,0 +1,11 @@
+{
+  "description": "Ring the tmux bell in Claude Code's own pane when it stops or asks for input, unless you are already looking at that window",
+  "hooks": {
+    "Stop": [
+      { "hooks": [{ "type": "command", "command": "\"${CLAUDE_PLUGIN_ROOT}/hooks/tmux-bell.sh\"" }] }
+    ],
+    "Notification": [
+      { "matcher": "permission_prompt|elicitation_dialog", "hooks": [{ "type": "command", "command": "\"${CLAUDE_PLUGIN_ROOT}/hooks/tmux-bell.sh\"" }] }
+    ]
+  }
+}

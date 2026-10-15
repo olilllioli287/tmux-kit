@@ -1,0 +1,6 @@
+{
+  "name": "tmux-kit",
+  "description": "tmux-kit: Claude Code plugins for tmux users",
+  "owner": { "name": "olilllioli287" },
+  "plugins": [{ "name": "tmux-bell", "source": "./plugins/tmux-bell", "description": "Highlight the tmux window tab when Claude Code finishes or needs you" }]
+}

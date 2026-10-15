@@ -1,0 +1,10 @@
+{
+  "name": "tmux-bell",
+  "version": "0.2.0",
+  "description": "Highlight the tmux window tab when Claude Code finishes a reply or needs your permission, so you notice it from other windows",
+  "author": { "name": "olilllioli287", "url": "https://github.com/olilllioli287" },
+  "homepage": "https://github.com/olilllioli287/tmux-kit",
+  "repository": "https://github.com/olilllioli287/tmux-kit",
+  "license": "MIT",
+  "keywords": ["tmux", "bell", "notification", "iterm2", "terminal"]
+}
